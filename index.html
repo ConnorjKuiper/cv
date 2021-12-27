@@ -1,0 +1,224 @@
+<!--This is a boilerplate code: it's reused for other projects.  In other words, it's a template-->
+<!DOCTYPE html><!--Declaration of document type; tells the browser what version of html is being used.  It's become a lot simpler with HTML 5.-->
+<html lang="en" dir="ltr"><!--Tells the browser everything between the opening and closing tags is HTML code.  Includes a head and body.-->
+
+  <head><!--Part of the HTML file that holds the information about the webpage and how the browser should handle the page-->
+    <meta charset="utf-8"><!--Meta elements give extra metadata or associated data to the HTML document.  This example sets the character set to UTF-8,
+    which tells the browser all the text in the webpage is encoded using UTF-8 encoding system, which is the standard with HTML 5.  There are also
+    other descriptions that can be put in the HTML attribute position of the tag.  They can be used to tell the browser how to render or display the
+    webpage, as well as a description of the content for search engines.-->
+    <title>The Personal website of Connor of Connortopia, third of his name</title><!--The title tag tells the browser what the title is for the page-->
+  </head>
+
+  <body><!--Make sure to indent.  For example, because the h1 tag is contained within the body, it should be indented past the level of the body.-->
+
+    <table cellspacing = "20"><!--Introduces spacing equivalent to a percentage you enter or a number of pixels-->
+
+      <tr>
+        <td>
+          <img src = "EmperorConnoroftheConnors.jpg" alt = "Loyal subjects
+          bask in the glory of Emperor Connor Jimmy Kuiper III of Connortopia" width = "500" height = "400"><!--This is the image tag.  It is used to display an image, either using the
+          url of the image, or .  The src attribute refers to the souce.  The alt attribute will display that text if the image can't be displayed.  It will
+          also give the search engines more of an idea about what the webpage is about.  Using a URL source will mean that the server must be pinged in order
+          for it to get permission to display the image.  The browser then has to download it.  In order to get rid of this reliance, you can put the image
+          in the same folder as the HTML file and reference it from there, because they're on the same level.-->
+        </td>
+        <td>
+          <h1>Connor Jimmy Kuiper III of Connortopia</h1>
+          <p>
+            <em>The Third of his Name, the Ultimate Conquerer of the Wildlands, <a href = "https://en.wikipedia.org/wiki/Roman_Empire"><strong>the Lord
+            Protector of the Empire of Connor</strong></em></a><!--em or emphasis tag.  Marks text that needs to be emphasized.  You can use the <i></i> tag
+            as well, which will only italicize the text, where the em tag will tell the browser to stress the text (using em is considered better practice).
+            The same duality is between the strong tag and the bold tag.  The strong tag conveys more information.  The a tag is referred to as the anchor
+            tag.  It is used to link another text document or webpage or anything else to the current webpage.  HREF stands for hyperlink reference; you
+            would insert the URL of the webpage you want to link it to in that attribute.-->
+          </p><!--P tag; formats text into a paragraph.-->
+          <p>
+            Connor Jimmy Kuiper III is a celebrated hero of the renowned Empire of Connor.  He is known for conquering the frostbitten lands of the <a href = "https://en.wikipedia.org/wiki/Ewok">Knuckens</a>,
+            bringing peace to a region that had been ravaged by war for decades.
+          </p>
+        </td>
+      </tr>
+
+    </table>
+
+    <hr size = "1">
+    <h3>Education</h3>
+    <p>
+      Connor Jimmy Kuiper III has been well educated in all areas of the learned arts.  He is a master alchemist, and attended many illustrious and
+      respected Universities, including the <a href = "https://en.wikipedia.org/wiki/Hogwarts">Connor University of Connortopia</a>.
+      He is most well known for his ability to guess the approximate weight of horses he passes on the road with no help at all (definitely not), which
+      has earned him much praise from his grateful subjects.
+    </p>
+
+    <hr />
+    <h3>Titles</h3>
+    <ol type = "i"><!--This makes it list the elements with roman numerals.  USE MDN TO FIND DIFFERENT ATTRIBUTES.  Start = 7 attribute makes the
+    numbering start at 7.  -->
+      <li>
+        Lord Protector
+      </li>
+      <li>
+        King of the Knuckens
+      </li>
+      <li>
+        Subjugator of Judonia
+      </li>
+      <li>
+        Archon of Codonia
+      </li>
+    </ol><!--This is the ordered list tag, which creates a numbered list of items.-->
+
+    <hr />
+    <table cellspacing = "10"><!--Table tag.  Inside table rows can be created along with table elements.  Attributes can be added, but it's best
+    to add it in CSS-->
+
+      <thead><!--table header-->
+        <tr>
+          <th><!--Table header cell element-->
+            Year (After Foundation of Connortopian Empire)
+          </th>
+
+          <th>
+            Event
+          </th>
+        </tr>
+      </thead>
+
+      <tbody><!--Denotes the body of the table-->
+        <tr><!--Table row tag.  creates a row-->
+
+          <td><!--table data tag-->
+            210 AFCE
+          </td>
+
+          <td>
+            Connor Jimmy Kuiper III is elected Emperor of the Connors after the death of Connor Alexander Kuiper IV
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            211 AFCE
+          </td>
+
+          <td>
+            Emperor Connor begins his campaigns in the Knucken Kingdoms
+          </td>
+
+        </tr>
+      </tbody>
+
+    </table>
+
+    <hr />
+    <h3>Skills</h3>
+
+    <table cellspacing = "10"><!--Nested Tables-->
+      <tr>
+        <td>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  Popularity with the People
+                </td>
+                <td>
+                  &#11088; &#11088; &#11088; &#11088; &#11088;<!--This is how you denote a star emoji.  Note the semicolons in between.-->
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  Effectiveness as Ruler
+                </td>
+
+                <td>
+                  &#11088; &#11088; &#11088; &#11088; &#11088;
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  Heroism
+                </td>
+
+                <td>
+                  &#11088; &#11088; &#11088; &#11088; &#11088;
+                </td>
+              </tr>
+            </tbody>
+
+          </table>
+        </td>
+
+        <td>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  Command
+                </td>
+                <td>
+                  &#11088; &#11088; &#11088; &#11088; &#11088;<!--This is how you denote a star emoji.  Note the semicolons in between.-->
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  Strategic Understanding
+                </td>
+
+                <td>
+                  &#11088; &#11088; &#11088; &#11088; &#11088;
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  Administrative Ability
+                </td>
+
+                <td>
+                  &#11088; &#11088; &#11088; &#11088; &#11088;
+                </td>
+              </tr>
+            </tbody>
+
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <hr />
+    <table cellspacing = "10">
+      <tr>
+        <td>
+          <h4><a href = "provinces.html">List of Conquered Provinces</a></h3>
+        </td>
+
+        <td>
+          <h4><a href ="contact.html">How to Contact</a></h3>
+        </td>
+      </tr>
+    </table>
+
+
+
+  </body>
+
+</html>
+<!--If you want to display this page, open it up in the file finder.
+In addition, you can right click on the file in atom, copy full path (which copies the full directory of the file), and paste it into a browser.
+<thead>
+  <tr>
+    <th>
+      Skills
+    </th>
+
+    <th>
+      Rating of Skill
+    </th>
+
+  </tr>
+</thead>-->

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Information</title>
+  </head>
+  <body>
+    <h1>Contact Information</h1>
+    <p>
+      You may contact his Highness by submitting a query to the local magistrate/warlord of your town/slum.  Charges may apply.
+    </p>
+    <hr />
+    <form action="mailto:gmail@gmail.com" method="post" enctype="text/plain"><!--Forms allow you to retrieve input from the user.  Enctype is encoding
+      type.-->
+      <label>Your Name: </label><!--A label for the specific input-->
+      <input type="text" name="yourName" value=""><br /><!--This is how the input is stored.  In this case, it will show up as a simple text box.  The
+      type affects what method is used to store it, the name affects how it is referred to.-->
+      <label>Your Email: </label>
+      <input type="email" name="yourEmail" value=""><br />
+      <label>Your Message: </label><br />
+      <textarea name="youMessage" rows="10" cols="30"></textarea><br /><!--Text box.  Rows = how tall and cols = how long.-->
+      <label>Family Heraldry: </label>
+      <input type="color" name="" value=""><br /><!--Color picker input-->
+      <label>Social Caste: </label><!--A label for the specific input-->
+      <input type="text" name="" value=""><br />
+      <label>Would you like to sign up for the local levy? </label>
+      <input type = "checkbox" name="" value=""><br />
+      <input type="submit" name=""><br /><!--This creates a submit button-->
+    </form>
+  </body>
+</html>
